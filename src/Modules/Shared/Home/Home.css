@@ -1,0 +1,26 @@
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.tile {
+  height: 200px;
+  border: none;
+  border-radius: 0px;
+}
+
+.tile:hover {
+  -webkit-filter: brightness(135%);
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
