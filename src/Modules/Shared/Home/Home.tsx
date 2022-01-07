@@ -59,7 +59,7 @@ class Home extends React.Component<Props, State> {
 
           <Button onClick={this.autoRouteTest}>
             {/* calling a method on click onclick */}
-            Programmatically route(click --> wait 5s)
+            Programmatically route(click -- wait 5s)
           </Button>
         </div>
       </div>
