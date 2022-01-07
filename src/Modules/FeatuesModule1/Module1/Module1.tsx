@@ -69,7 +69,7 @@ class Module1 extends React.Component<Props, State> {
         ></Input>
         <br />
         <Button variant="contained" color="primary" onClick={this.sendToStore}>
-          Call Service --> update store
+          Call Service -- update store
         </Button>
         {this.props.moduleState.success ? <div>get call success</div> : null}
         <div className="mt-4">
